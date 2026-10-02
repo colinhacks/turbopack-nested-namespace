@@ -1,0 +1,19 @@
+{
+  "name": "turbopack-nested-namespace",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "build:webpack": "next build --webpack",
+    "check": "grep -rl UNUSED_LOCALE_MARKER .next/static && echo 'unused module IS in the client bundle' || echo 'unused module is NOT in the client bundle'"
+  },
+  "dependencies": {
+    "next": "16.4.0-canary.57",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.3",
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}
