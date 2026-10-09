@@ -7,7 +7,7 @@
     "check": "grep -rl UNUSED_LOCALE_MARKER .next/static && echo 'unused module IS in the client bundle' || echo 'unused module is NOT in the client bundle'"
   },
   "dependencies": {
-    "next": "16.4.0-canary.57",
+    "next": "^16.5.0-canary.6",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
